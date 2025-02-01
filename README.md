@@ -34,6 +34,10 @@ Le jeu de données "Car Price Dataset" provient de Kaggle et contient 10 000 ent
    - Évaluation de l'impact des variables catégorielles
    - Visualisations des influences positives et négatives
 
+4. **Interface Web**
+   - Une interface web simple et épurée a été ajoutée pour permettre aux utilisateurs de saisir les caractéristiques de leur voiture et obtenir une estimation du prix en temps réel.
+   - L'interface web est construite avec Flask et permet aux utilisateurs de sélectionner les valeurs pour les caractéristiques catégorielles (marque, modèle, transmission, type de carburant) et de saisir les valeurs pour les caractéristiques numériques (année, taille du moteur, etc.).
+
 ## Installation
 ```bash
 pip install -r requirements.txt
@@ -70,7 +74,6 @@ Le projet permet de :
 
 ## Améliorations Possibles
 1. Implémenter d'autres algorithmes (Random Forest, XGBoost, etc.)
-2. Ajouter une interface utilisateur pour les prédictions
 
 ## Auteur
 Berthod Guillaume
